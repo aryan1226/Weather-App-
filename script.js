@@ -55,7 +55,7 @@ form.addEventListener('submit', function (e) {
             myWeatherContainer.style.backgroundColor = '#8ecfcf'
         }
         if (weatherMain == 'Haze') {
-            image.src = `./Images/Drizzle.png`
+            image.src = `./haze.png`
             myWeatherContainer.style.backgroundColor = '#d8ced2'
         }
 
