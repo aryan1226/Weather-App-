@@ -39,7 +39,7 @@ form.addEventListener('submit', function (e) {
 
         // Updating the Images according to the weather
         if (weatherMain == 'Clear') {
-            image.src = `./Images/sunny.png`
+            image.src = `./sunny.png`
             myWeatherContainer.style.backgroundColor = '#ec6e4c'
         }
         if (weatherMain == 'Clouds') {
