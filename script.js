@@ -43,11 +43,11 @@ form.addEventListener('submit', function (e) {
             myWeatherContainer.style.backgroundColor = '#ec6e4c'
         }
         if (weatherMain == 'Clouds') {
-            image.src = `./Images/clouds.png`
+            image.src = `./Images/cloudy.jpg`
             myWeatherContainer.style.backgroundColor = '#86d3d3'
         }
         if (weatherMain == 'Rain') {
-            image.src = `./Images/Rain.png`
+            image.src = `./Images/rain.png`
             myWeatherContainer.style.backgroundColor = '#494bcf'
         }
         if (weatherMain == 'Drizzle') {
